@@ -3,20 +3,23 @@
     margin: 0;
 }
 nav {
-    background-color: inherit;
-    padding: 14px 16px;
+    padding: 19px 19px;
     font-size: 17px;
     background-color: #ffffff;
     width: 100%;
 }
-h1 {
-    color: #4aaaa5;
+.myname {
+    color: #ffffff;
+    background-color: #4aaaa5;
     font-family: 'Georgia' 'Times New Roman', Times, serif;   
+    display: inline;
+    padding: 20px;
+    margin-left: 73px;
 }
 ul {
     position: absolute;
     top: 20px;
-    right: 10px;
+    right: 100px;
 }
 ul li {
     display: inline;
@@ -30,34 +33,15 @@ ul li a:hover {
     color: #026873;
     border-bottom: 1px solid darkblue;
 }
-.box {
-    height: 60px;
-    position: relative;
+.box { 
+    height: 70px;
     width: 100%;
-    background-color: #4aaaa5;
-    margin: 0;
-    margin-left: 82px;
-    margin-right: 300px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin-bottom: 50px;
     text-align: left;
     font-size: 30px;
-    background-color: #ffffff;
-    padding-top: 0;
-    margin: 0;
-    margin-top: 0;
     border-bottom-color: #cccccc;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-}
-.nav {
-    background-color: #ffffff;
-    padding-top: 0;
-    margin: 0;
-    margin-top: 0;
-    color: #777777;
 }
 h2 {
     text-align: left;
@@ -96,20 +80,12 @@ body {
     border-color: #dddddd;
     height: 450px;
 }
-.container2 {
-    width: 1024px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
+#form {
     margin-top: 20px;
-    border-color: #dddddd;
-    height: 700px;
 }
 .bio,
 .image {
     float: left;
-    width: 200px;
-    height: 200px;
     margin-right: 20px;
     margin-top: 20px;
 }
@@ -118,8 +94,19 @@ body {
     height: 70px;
     margin-bottom: 20px;
 }
+.container2 {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-color: #dddddd;
+    height: 700px;
+}
+.images {
+    margin-top: 25px;
+}
 .footer {
-    position: relative;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
