@@ -2,38 +2,48 @@
     box-sizing: border-box;
     margin: 0;
 }
-.nav {
-    overflow: hidden;
-    background-color: #ffffff;
-}
-.nav{
+nav {
     background-color: inherit;
-    float: right;
-    border: none;
-    outline: none;
-    cursor: pointer;
     padding: 14px 16px;
-    transition: 0.3s;
     font-size: 17px;
+    background-color: #ffffff;
+    width: 100%;
 }
 h1 {
-    text-align: left;
-    color: #ffffff;
+    color: #4aaaa5;
     font-family: 'Georgia' 'Times New Roman', Times, serif;   
 }
- .box {
-    height: 85px;
+ul {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+ul li {
+    display: inline;
+    margin: 10px;
+}
+ul li a {
+    text-decoration: none;
+    color: #777777;
+}
+ul li a:hover {
+    color: #026873;
+    border-bottom: 1px solid darkblue;
+}
+.box {
+    height: 60px;
     position: relative;
-    width: 20%;
+    width: 100%;
     background-color: #4aaaa5;
     margin: 0;
-    margin-left: 250px;
+    margin-left: 82px;
+    margin-right: 300px;
     padding-top: 20px;
     padding-bottom: 40px;
-    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
     font-size: 30px;
-}
-.me {
     background-color: #ffffff;
     padding-top: 0;
     margin: 0;
@@ -41,8 +51,13 @@ h1 {
     border-bottom-color: #cccccc;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    height: 85px;
-
+}
+.nav {
+    background-color: #ffffff;
+    padding-top: 0;
+    margin: 0;
+    margin-top: 0;
+    color: #777777;
 }
 h2 {
     text-align: left;
@@ -72,7 +87,7 @@ body {
     width: 980px;
     margin-top: 20px;
 }
-.container{
+.container {
     width: 1024px;
     margin: 0 auto;
     background-color: #fff;
@@ -80,6 +95,15 @@ body {
     margin-top: 20px;
     border-color: #dddddd;
     height: 450px;
+}
+.container2 {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-color: #dddddd;
+    height: 700px;
 }
 .bio,
 .image {
@@ -95,7 +119,7 @@ body {
     margin-bottom: 20px;
 }
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -109,4 +133,26 @@ body {
     border-top-width: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+ input[type=text], select {
+        width: 980px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+}
+#message {
+    height: 100px;
 }
