@@ -11,10 +11,12 @@ nav {
 .myname {
     color: #ffffff;
     background-color: #4aaaa5;
-    font-family: 'Georgia' 'Times New Roman', Times, serif;   
+    font-family: 'Marck Script', cursive;
     display: inline;
     padding: 20px;
     margin-left: 73px;
+    font-size: 25px;
+    line-height: 30px;
 }
 ul {
     position: absolute;
@@ -132,8 +134,8 @@ body {
 .images {
     position: relative;
     float: left;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 h4 {
     position: absolute;
@@ -147,7 +149,7 @@ h4 {
     padding-top: 9px;
 
 }
-.footer{
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
